@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Payment Form</title>
+<link rel="stylesheet" type="text/css" href="C:\Users\Mg\OneDrive\Desktop\html\Payment style.css">
+</head>
+<body>
+	<div id="size">
+	<div class="container">
+	<form action=""> 
+<h2 class="main_heading">Payment Form</h2>
+<hr>
+<p>required fields are followed by *</p>
+<h3>Contact Information</h3>
+<p>Name: * <input type="text" name="name" placeholder="enter name"required></p>
+
+
+
+			
+		<p>
+			Gender: *<fieldset>Male <input type="radio" name="gender" id="male" required> Female <input type="radio" name="female" id="female" required>
+		</p>
+		</fieldset>
+		<p>
+			Address:<textarea name="address" id="address" cols="50" rows="2"></textarea> 
+			<p>
+				Email: *<input type="email" name="email" id="email" required>
+			</p>
+			<p>
+				Pincode: *<input type="number" name="pincode" id="pincode" required>
+			</p>
+		</p>
+		<h3>Payment Information</h3>
+		<p>Card Type: * <select name="cardtype" id="card type" required>
+<option value="">select card type </option>
+<option value="mastercard">Mastercard </option>
+<option value="rupayy">Rupay </option>
+<option value="visa">Visa </option>
+</select>
+</p>
+<p>Card Number *: <input type="number" name="card number" id="card number"></p>
+	<p>Expiration Date: <input type="date" name="exp_date" id="exp_date"></p>
+	<p> CVV *<input type="password" name="cvv" id="cvv"></p>
+	<input type="submit" value="Pay Now">
+
+	
+</form>
+</div>
+</div>
+</body>
+</html>
